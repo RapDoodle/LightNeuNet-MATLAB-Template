@@ -10,17 +10,17 @@ LightNeuNet is a neural network framework built for academic use. For more infor
 
 ### Installation
 
-To download the project, run the `update.m` script in MATLAB.
+To download the project, run the `download.m` script in MATLAB.
 
 Note: You must have Git installed and register it to your system path before using the script. Otherwise, you can type the following command in  Git Bash.
 
 ```bash
-git clone https://github.com/RapDoodle/LightNeuNet-MATLAB.git include
+git clone https://github.com/RapDoodle/LightNeuNet-MATLAB.git include/lnn
 ```
 
 ### Statup
 
-To load the library, run the `init.m` script.
+To load the library, run the `lnn.m` script.
 
 ## License
 This project is licensed under the GPLv3 license.
