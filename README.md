@@ -10,7 +10,15 @@ LightNeuNet is a neural network framework built for academic use. For more infor
 
 ### Installation
 
-To download the project, run the `installlnn.m` script in MATLAB.
+To download the project, run `lnn install core` from the MATLAB terminal.
+
+Supported plugins
+
+- Quantum Finance Software Development Kit
+  
+  Project page: https://github.com/RapDoodle/Quantum-Finance-SDK-MATLAB
+
+  For installation, run `lnn install qfsdk` from the MATLAB terminal.
 
 **Note**: You must have Git installed and register it to your system path before using the script. Otherwise, you can type the following command in  Git Bash.
 
@@ -22,7 +30,15 @@ If you do not have Git installed, you can [download](https://github.com/RapDoodl
 
 ### Statup
 
-To load the library, run the `lnn.m` script.
+To load all the libraries, run `lnn` from the MATLAB terminal.
+
+**Note**: To only load a specific module, run `lnn load [alias]`. For example, `lnn load qfsdk` to only load the Quantum Finance SDK.
+
+### Uninstall
+
+To uninstall all packages, run `lnn clear`. To uninstall a specific plugin, run `lnn clear [alias]`. For example, run `lnn clear qfsdk` to only uninstall the Quantum Finance SDK.
+
+**Note**: To update a module or plugin, the module must be removed using  `lnn clear [alias]` explicitly to avoid any conflict.
 
 ## License
 This project is licensed under the GPLv3 license.
